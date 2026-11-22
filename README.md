@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/pixel-avatar.gif" width="220" alt="Pixel art portrait of Sulana" />
+<img src="assets/terminal.svg" width="100%" alt="Animated terminal introducing Sulana Uduwana, Full-Stack Developer, open to internships" />
 
 # Hi, I'm Sulana 👋
 

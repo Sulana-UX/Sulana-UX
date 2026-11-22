@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="330" viewBox="0 0 860 330" role="img" aria-label="Terminal: whoami - Sulana Uduwana, Full-Stack Developer, open to internships">
+  <defs>
+    <linearGradient id="name" x1="0" x2="1">
+      <stop offset="0" stop-color="#7ee787"/>
+      <stop offset="0.5" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#d2a8ff"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#58a6ff" stop-opacity="0.28"/>
+      <stop offset="0.5" stop-color="#d2a8ff" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#d2a8ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    text { font-family: "JetBrains Mono", "Fira Code", Consolas, "SF Mono", Menlo, "DejaVu Sans Mono", monospace; }
+    .cmd { font-size: 17px; fill: #e6edf3; }
+    .p { fill: #7ee787; }
+    .out { font-size: 17px; fill: #8b949e; opacity: 0; }
+    .name { font-size: 30px; font-weight: 700; fill: url(#name); opacity: 0; }
+    .cover { fill: #0d1117; }
+    .cur { fill: #58a6ff; }
+
+    .all { animation: all 14s infinite; }
+    @keyframes all { 0%, 90% { opacity: 1; } 95%, 100% { opacity: 0; } }
+
+    .t1 { animation: t1 14s infinite; }
+    .t2 { animation: t2 14s infinite; }
+    .t3 { animation: t3 14s infinite; }
+    @keyframes t1 { 0%, 2.86% { transform: translateX(0); animation-timing-function: steps(8, end); } 8.57%, 100% { transform: translateX(82px); } }
+    @keyframes t2 { 0%, 16.4% { transform: translateX(0); animation-timing-function: steps(14, end); } 25%, 100% { transform: translateX(143px); } }
+    @keyframes t3 { 0%, 32.1% { transform: translateX(0); animation-timing-function: steps(14, end); } 40.7%, 100% { transform: translateX(143px); } }
+
+    .c1 { animation: c1 14s infinite; }
+    .c2 { animation: c2 14s infinite; }
+    .c3 { animation: c3 14s infinite; }
+    @keyframes c1 { 0%, 10.6% { opacity: 1; } 10.7%, 100% { opacity: 0; } }
+    @keyframes c2 { 0%, 14% { opacity: 0; } 14.1%, 27% { opacity: 1; } 27.1%, 100% { opacity: 0; } }
+    @keyframes c3 { 0%, 29.9% { opacity: 0; } 30%, 42.8% { opacity: 1; } 42.9%, 100% { opacity: 0; } }
+
+    .o1 { animation: o1 14s infinite; }
+    .o2 { animation: o2 14s infinite; }
+    .o3 { animation: o3 14s infinite; }
+    .o4 { animation: o4 14s infinite; }
+    @keyframes o1 { 0%, 10.7% { opacity: 0; transform: translateY(6px); } 14%, 100% { opacity: 1; transform: translateY(0); } }
+    @keyframes o2 { 0%, 27.1% { opacity: 0; } 30%, 100% { opacity: 1; } }
+    @keyframes o3 { 0%, 42.9% { opacity: 0; } 45.7%, 100% { opacity: 1; } }
+    @keyframes o4 { 0%, 47% { opacity: 0; } 47.1%, 100% { opacity: 1; } }
+
+    .blink { animation: blink 1s steps(1, end) infinite; }
+    @keyframes blink { 0%, 50% { opacity: 1; } 50.01%, 100% { opacity: 0; } }
+
+    .orb { animation: orb 8s ease-in-out infinite alternate; }
+    @keyframes orb { from { transform: translate(0, 0); } to { transform: translate(-60px, 30px); } }
+  </style>
+
+  <!-- window -->
+  <rect x="1" y="1" width="858" height="328" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+  <circle class="orb" cx="720" cy="190" r="170" fill="url(#glow)"/>
+  <path d="M1 13 a12 12 0 0 1 12 -12 h834 a12 12 0 0 1 12 12 v25 h-858 z" fill="#161b22"/>
+  <line x1="1" y1="38" x2="859" y2="38" stroke="#30363d" stroke-width="1"/>
+  <circle cx="24" cy="20" r="6" fill="#ff5f57"/>
+  <circle cx="44" cy="20" r="6" fill="#febc2e"/>
+  <circle cx="64" cy="20" r="6" fill="#28c840"/>
+  <text x="430" y="25" text-anchor="middle" font-size="13" fill="#8b949e">sulana@uwu: ~</text>
+
+  <g class="all">
+    <!-- line 1 -->
+    <text class="cmd" x="28" y="80" textLength="82" lengthAdjust="spacingAndGlyphs"><tspan class="p">❯</tspan> whoami</text>
+    <g class="t1"><rect class="cover" x="28" y="62" width="100" height="24"/><rect class="cur c1" x="28" y="63" width="10" height="21"/></g>
+    <text class="name o1" x="28" y="125">Sulana Uduwana</text>
+
+    <!-- line 2 -->
+    <text class="cmd" x="28" y="170" textLength="143" lengthAdjust="spacingAndGlyphs"><tspan class="p">❯</tspan> cat role.txt</text>
+    <g class="t2"><rect class="cover" x="28" y="152" width="160" height="24"/><rect class="cur c2" x="28" y="153" width="10" height="21"/></g>
+    <text class="out o2" x="28" y="200"><tspan fill="#58a6ff">Full-Stack Developer</tspan> · AI/ML · Cybersecurity · UI/UX</text>
+
+    <!-- line 3 -->
+    <text class="cmd" x="28" y="245" textLength="143" lengthAdjust="spacingAndGlyphs"><tspan class="p">❯</tspan> echo $STATUS</text>
+    <g class="t3"><rect class="cover" x="28" y="227" width="160" height="24"/><rect class="cur c3" x="28" y="228" width="10" height="21"/></g>
+    <text class="out o3" x="28" y="275"><tspan fill="#7ee787">●</tspan> Open to Software Engineering internships 🚀</text>
+
+    <!-- idle prompt -->
+    <g class="o4">
+      <text class="cmd" x="28" y="312"><tspan class="p">❯</tspan></text>
+      <rect class="cur blink" x="46" y="296" width="10" height="21"/>
+    </g>
+  </g>
+</svg>
